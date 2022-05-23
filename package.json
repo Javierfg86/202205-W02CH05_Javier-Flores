@@ -1,0 +1,49 @@
+{
+    "name": "202205-w02ch02-sergio-hernandez-",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "lint": "eslint",
+        "test:watch": "jest --watchAll",
+        "test:cov": "jest --coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SergioH1/202205-w02ch02-sergio-hernandez-.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/SergioH1/202205-w02ch02-sergio-hernandez-/issues"
+    },
+    "homepage": "https://github.com/SergioH1/202205-w02ch02-sergio-hernandez-#readme",
+    "devDependencies": {
+        "@babel/plugin-transform-modules-commonjs": "^7.17.12",
+        "eslint": "^8.15.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jest": "^26.2.2",
+        "eslint-plugin-n": "^15.2.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "jest": "^28.1.0"
+    },
+    "prettier": {
+        "singleQuote": true
+    },
+    "plugins": [
+        "jest"
+    ],
+    "babel": {
+        "env": {
+            "test": {
+                "plugins": [
+                    "@babel/plugin-transform-modules-commonjs"
+                ]
+            }
+        }
+    }
+}
